@@ -2,6 +2,18 @@
 
 [![Node.js CI](https://github.com/adobe/commerce-integration-starter-kit/actions/workflows/deploy_node_stage.yml/badge.svg)](https://github.com/adobe/commerce-integration-starter-kit/actions/workflows/deploy_node_stage.yml)
 
+## ACCS Environment Details
+
+- [Admin Login](https://na1-stage.admin.commerce.adobe.com/BTGLUUrNv1c83gmLfXRp65)
+- [GraphQL](https://na1-stage.api.commerce.adobe.com/BTGLUUrNv1c83gmLfXRp65/graphql)
+- [REST](https://na1-stage.api.commerce.adobe.com/BTGLUUrNv1c83gmLfXRp65)
+
+## EDS Environment
+
+- [Git Repository](https://github.com/kavingas/accs-storefront)
+- [Document Authoring](https://da.live/#/kavingas/accs-storefront)
+- [Frontend](https://main--accs-storefront--kavingas.aem.live/)
+
 _Table of contents_:
 - [**Commerce Integration Starter Kit**](#commerce--integration-starter-kit)
   - [**Prerequisites**](#prerequisites)
