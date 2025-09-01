@@ -7,3 +7,12 @@ check-stock:
   annotations:
     require-adobe-auth: true
     final: true
+test:
+  function: ./test/index.js
+  web: 'yes'
+  runtime: nodejs:22
+  inputs:
+    LOG_LEVEL: debug
+  annotations:
+    require-adobe-auth: false
+    final: true

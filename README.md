@@ -14,6 +14,28 @@
 - [Document Authoring](https://da.live/#/kavingas/accs-storefront)
 - [Frontend](https://main--accs-storefront--kavingas.aem.live/)
 
+## Newrelic log forwarding
+
+```sh
+aio runtime namespace log-forwarding set new-relic --base-uri https://log-api.newrelic.com/log/v1 --license-key xxxx
+```
+
+## Newrelic logs
+- [Newrelic Logs](https://one.newrelic.com/logger?account=3344091&duration=1800000&state=1db6ba8c-90eb-ad27-3868-d7beee112790)
+
+## Deploying to app builder staging environment
+
+```sh
+export AIO_CLI_ENV=stage 
+aio app deploy
+```
+
+## Helpful commands
+
+```sh
+aio runtime action get admin-ui-sdk/registration --url
+```
+
 _Table of contents_:
 - [**Commerce Integration Starter Kit**](#commerce--integration-starter-kit)
   - [**Prerequisites**](#prerequisites)
