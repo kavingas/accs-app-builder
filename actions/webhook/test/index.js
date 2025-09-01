@@ -26,7 +26,9 @@ async function main (params) {
   try {
     logger.info('Start processing request')
     logger.debug(`Webhook main params: ${stringParameters(params)}`)
+    logger.info('Node version: ' + process.version)
 
+    logger.info('Runtime environment: ' + process.env.NODE_ENV)
 
     logger.info(`Successful request: ${HTTP_OK}`)
     return webhookSuccessResponse()

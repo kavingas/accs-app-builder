@@ -20,6 +20,10 @@
 aio runtime namespace log-forwarding set new-relic --base-uri https://log-api.newrelic.com/log/v1 --license-key xxxx
 ```
 
+```sh
+aio runtime namespace log-forwarding get
+```
+
 ## Newrelic logs
 - [Newrelic Logs](https://one.newrelic.com/logger?account=3344091&duration=1800000&state=1db6ba8c-90eb-ad27-3868-d7beee112790)
 
@@ -28,12 +32,18 @@ aio runtime namespace log-forwarding set new-relic --base-uri https://log-api.ne
 ```sh
 export AIO_CLI_ENV=stage 
 aio app deploy
+aio app deploy -a webhook/test
 ```
 
 ## Helpful commands
 
 ```sh
 aio runtime action get admin-ui-sdk/registration --url
+aio runtime action get webhook/test --url
+```
+
+```sh
+aio app deploy -a webhook/test
 ```
 
 _Table of contents_:
