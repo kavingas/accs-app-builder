@@ -42,7 +42,7 @@ aio runtime action get admin-ui-sdk/registration --url
 aio runtime action get webhook/test --url
 ```
 
-```sh
+```sh 
 aio app deploy -a webhook/test
 ```
 
